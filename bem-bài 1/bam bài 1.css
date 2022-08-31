@@ -1,0 +1,33 @@
+hmtl {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    flex-direction: column;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body > div {
+    margin: auto;
+}
+/* block */
+.btn {
+    padding: 8px;
+    border-radius: 50px;
+    color: #fff;
+    display: inline block;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    min-width: 120px;
+    text-align: center;
+    
+}
+.btn--success {
+    background-color: #5ed85e;
+
+}
+.btn--danger {    
+    background-color: rgb(243, 68, 68);
+
+}
